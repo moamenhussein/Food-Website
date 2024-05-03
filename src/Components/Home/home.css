@@ -1,0 +1,331 @@
+.numbers {
+  background-color: var(--main-color);
+  padding: 25px 0;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  color: #fff;
+  font-weight: bold;
+}
+.numbers h2 {
+  font-size: 50px;
+  margin: 10px 0;
+}
+.numbers h6 {
+  letter-spacing: 3px;
+}
+.pride {
+  padding: 25px 0;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  color: #fff;
+  margin-top: 60px;
+}
+.pride img {
+  max-width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.pride h2,
+.ingrediants h2 {
+  color: #43121d;
+  margin-top: 60px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  width: 80%;
+}
+.pride p,
+.ingrediants p {
+  color: #999;
+  margin-top: 15px;
+  font-size: 25px;
+}
+.pride button,
+.ingrediants button {
+  margin-top: 15px;
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  padding: 15px 30px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.pride button a,
+.ingrediants button a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.pride button:hover,
+.ingrediants button:hover {
+  background-color: #fff;
+}
+.pride button:hover a,
+.ingrediants button:hover a {
+  color: var(--main-color) !important;
+}
+
+.ingrediants {
+  margin-top: 80px;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.ingrediants ul li {
+  list-style: square;
+  color: #333;
+  margin-top: 10px;
+}
+.ingrediants ul {
+  padding: 0;
+}
+.cake {
+  background-image: url("../../Assets/cake.jpg");
+  max-width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.cake h2,
+.cake p {
+  font-weight: bold;
+  /* width: 50%; */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.cake h2 {
+  margin-top: 100px;
+  color: var(--main-color);
+  font-size: 40px;
+}
+.cake p {
+  margin-top: 20px;
+  color: #555;
+  font-size: 20px;
+}
+.cake button {
+  border: none;
+  background-color: transparent;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #43121d;
+  font-weight: bold;
+}
+.cake button span:first-child {
+  padding-right: 10px;
+}
+
+.information {
+  margin-top: 50px;
+}
+.information h2 {
+  color: #43121d;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.information p {
+  font-size: 18px;
+}
+@media (max-width: 1000px) {
+  .cake h2 {
+    font-size: 20px;
+  }
+  .cake p {
+    font-size: 15px;
+    padding: 0 5px;
+  }
+  .cake {
+    height: 100%;
+  }
+  .information p {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+  .cardsInfo img {
+    width: 300px;
+  }
+}
+.testimonials {
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--main-color);
+  margin-top: 100px;
+  padding: 50px 0;
+  text-align: center;
+}
+.testimonials h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+.testimonials img {
+  width: 100px !important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  margin-bottom: 150px;
+  margin-top: 30px;
+}
+@media (max-width: 1000px) {
+  .pride h2,
+  .ingrediants h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .pride p,
+  .ingrediants p {
+    font-size: 15px;
+  }
+  .cardsInfo {
+    overflow: hidden;
+  }
+  .cardsInfo img {
+    width: 350px !important;
+  }
+}
+.questions {
+  margin-top: 100px;
+  text-align: center;
+}
+.questions h2 {
+  color: #43121d;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.questions .questionsheading {
+  color: #43121d;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.baked {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  background-image: url("../../Assets/backed.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+}
+.baked::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #00000059;
+}
+.baked h3 {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.baked button {
+  position: relative;
+  z-index: 1;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.form {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.form h4 {
+  color: #43121d;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.form p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.form input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+}
+.form input:focus {
+  outline: none;
+  border: 2px solid var(--main-color);
+}
+.form button {
+  margin-top: 15px;
+  padding: 15px 30px;
+  border: none;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+}
+.footer {
+  background-color: var(--main-color);
+  margin-top: 100px;
+  padding: 30px 0;
+}
+.footer .links,
+.footer .social {
+  display: flex;
+  justify-content: center;
+}
+.footer .links a,
+.footer .social a {
+  color: white;
+  margin-left: 30px;
+  letter-spacing: 1px;
+}
+.footer .links a:hover {
+  border-bottom: 1px solid #FFF;
+}
+.footer .social a {
+  font-size: 25px;
+}
+.footer .made {
+  color: white;
+  letter-spacing: 1px;
+}
+@media(max-width: 1000px) {
+  .footer .links a {
+    font-size: 15px;
+  }
+  .footer .links {
+    margin-right: 20px;
+  }
+  .footer .social a {
+    font-size: 20px;
+  }
+  .footer .made {
+    font-size: 13px;
+  }
+}
